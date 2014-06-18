@@ -5,8 +5,7 @@
 require "csv"
 
 # construction d'une liste des codes postaux à 2 caractères
-# en excluant les lettres initiales inutilisées
-# par le système des codes postaux (D,F,I,O,Q et U)
+# en excluant les districts postaux inexistants (D, F, I, O, Q, U, W et Z)
 #
 # «rta» désigne les régions de tri et d'acheminement de Postes Canada
 # les RTA sont les 3 premiers caractères du code postal
