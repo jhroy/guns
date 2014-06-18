@@ -5,6 +5,11 @@ require "csv"
 # construction d'une liste des codes postaux à 2 caractères
 # en excluant les lettres initiales inutilisées
 # par le système des codes postaux (D,F,I,O,Q et U)
+#
+# «rta» désigne les régions de tri et d'acheminement de Postes Canada
+# les RTA sont les 3 premiers caractères du code postal
+# le registre obtenu par La Presse a été «anonymisé» en n'utilisant que
+# les 2 premiers caractères du code postal du propriétaire de l'arme à feu
 
 lettre = ("A".."Y").to_a
 lettre.delete("D")
