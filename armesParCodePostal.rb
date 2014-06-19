@@ -19,6 +19,7 @@ lettre.delete("I")
 lettre.delete("O")
 lettre.delete("Q")
 lettre.delete("U")
+lettre.delete("W")
 chiffre = (0..9).to_a
 
 rta = []
