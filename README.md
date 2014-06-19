@@ -7,7 +7,7 @@ La Presse a reçu un fichier «anonymisé», c'est-à-dire que le nom des propri
 
 Les trois premiers caractères des codes postaux correspondent à ce que Postes Canada appelle les «Régions de tri et d'acheminement (RTA)».
 
-## FICHIERS ##
+#### FICHIERS ####
 
 rta_pop.csv => fichier de la population par RTA à 2 caractères, composé à partir de données du recensement de 2011 (Statistique Canada: 
 
